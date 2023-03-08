@@ -8,35 +8,37 @@ By using Kubernetes, you will be able to define how your applications should run
 # What is Docker Swarm?
 Docker Swarm has been a popular open source standard for packaging and distributing containerized applications. In essence, it is native clustering for Docker. A pool of Docker hosts can be turned into a single virtual host.
 
+# Comparison Table
+
 # Kubernetes
  
-Kubernetes Setup is very complicated, but once installed cluster is robust
-For Kubernetes, GUI is the Kubemetes Dashboard
-Kubernetes is Highly scalable and scales fast
-Kubemetes can do auto-scaling
-In Kubernetes, manual intervention needed for load balancing traffic between different containers and pods
-Kubernetes can deploy rolling updates and does automatic rollbacks
-Kubernetes Can share storage volumes only with the other container  the same pod
-Kubernetes has In-built tools for logging and monitoring
-Kubernetes can do auto-scaling.
-In Kubernetes, manual intervention needed for load balancing traffic between different containers and pods.
-Kubernetes can deploy rolling updates and does automatic rollbacks.
-Kubernetes Can share storage volumes only with the other containers in the same pod.
-Kubernetes has In-built tools for logging and monitoring.
+1.  Kubernetes Setup is very complicated, but once installed cluster is robust
+2.  For Kubernetes, GUI is the Kubemetes Dashboard
+3.  Kubernetes is Highly scalable and scales fast
+4.  Kubemetes can do auto-scaling
+5.  In Kubernetes, manual intervention needed for load balancing traffic between different containers and pods
+6.  Kubernetes can deploy rolling updates and does automatic rollbacks
+7.  Kubernetes Can share storage volumes only with the other container  the same pod
+8.  Kubernetes has In-built tools for logging and monitoring
+9.  Kubernetes can do auto-scaling.
+10. In Kubernetes, manual intervention needed for load balancing traffic between different containers and pods.
+11. Kubernetes can deploy rolling updates and does automatic rollbacks.
+12. Kubernetes Can share storage volumes only with the other containers in the same pod.
+13. Kubernetes has In-built tools for logging and monitoring.
 
 # Docker Swarm
  
-Docker Swarm's Installation is very simple, but the cluster is not robust
-In Docker Swarm, there is no GUI
-Docker Swarm is highly scalable and scales 5xfaster than Kubernetes
-Docker swarm cannot do auto-scaling
-Docker swarm does auto load balancing of traffic between containers in the cluster
-Docker Swarm can deploy rolling updates, but not automatic rollback
-Docker Swarm can share storage volumes with any other container
-Docker Swarm uses 3rd party tools like ELK stack should be used for logging and monitoring
-Docker swarm cannot do auto-scaling
-Docker swarm does auto load balancing of traffic between containers in the cluster
-Docker Swarm can deploy rolling updates, but not automatic rollback
-Docker Swarm can share storage volumes with any other container
-Docker Swarm uses 3rd party tools like ELK stack should be used for logging and monitoring
+1.  Docker Swarm's Installation is very simple, but the cluster is not robust
+2.  In Docker Swarm, there is no GUI
+3.  Docker Swarm is highly scalable and scales 5xfaster than Kubernetes
+4.  Docker swarm cannot do auto-scaling
+5.  Docker swarm does auto load balancing of traffic between containers in the cluster
+6.  Docker Swarm can deploy rolling updates, but not automatic rollback
+7.  Docker Swarm can share storage volumes with any other container
+8.  Docker Swarm uses 3rd party tools like ELK stack should be used for logging and monitoring
+9.  Docker swarm cannot do auto-scaling
+10. Docker swarm does auto load balancing of traffic between containers in the cluster
+11. Docker Swarm can deploy rolling updates, but not automatic rollback
+12. Docker Swarm can share storage volumes with any other container
+13. Docker Swarm uses 3rd party tools like ELK stack should be used for logging and monitoring
 
