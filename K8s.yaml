@@ -1,0 +1,28 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: build
+  namespace: hacker-company
+spec:
+  schedule: "*/1 * * * *"
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: build-container
+            image: gcc:latest
+            command:
+            - "gcc"
+            - "-o"
+            - "/mnt/src/build"
+            - "/mnt/src/main.c"
+            volumeMounts:
+            - name: source-volume
+              mountPath: "/mnt/src"
+          restartPolicy: Never
+          volumes:
+          - name: source-volume
+            hostPath:
+              path: "/home/ubuntu/1171986-kubernetes-cronjob-basic-implementation/src"
