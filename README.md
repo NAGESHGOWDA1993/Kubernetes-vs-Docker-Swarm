@@ -1,5 +1,5 @@
 # Kubernetes-vs-Docker-Swarm
-Difference between kubernetes and docker swarm
+ Difference between kubernetes and docker swarm
 
 Containers have become quite popular in recent years. They help developers maintain consistency across various platforms, right from development to the production process. Although there are multiple significant in the market when it comes to container orchestration, including Mesosphere and Amazon ECS, this blog aims to take a comparative look at two of the popular ones - Kubernetes vs Docker Swarm.
 # What is Kubernetes?
